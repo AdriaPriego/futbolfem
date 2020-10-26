@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Futbol Femeni</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Adria Priego">
+        <meta name="description" content="Futbol Femeni">
+        <meta name="keywords" content="Futbol Femeni">
+    </head>
+    <body>
+        <header>
+            <img src="../img/liga-iberdrola.png" alt="Primera iberdrola">
+            <nav>
+                <a href="../index.html">Inici</a>
+                <a href="./classif.html">Classificacio</a>
+                <a href="./galeria.html">Galeria</a>
+                <a href="./resultats.html">Resultats</a>
+                <a href="./infogeneral.html">Informacio</a>
+                <a href="./planter.html">Planter</a>
+            </nav>
+        </header>
+        <main>
+            <form action="./validaenquesta.php" method="POST">
+                <p>
+                    <label for="email"><b>Email</b></label>
+                    <input id="email" type="email" placeholder="Introduce tu correo electronico" name="email" required>
+                </p>
+                <p>
+                    <label for="user"><b>Nombre i apellidos</b></label>
+                    <input id="user" type="text" placeholder="Introduce tu Nombre" name="user" required>  
+                </p>
+                <p>
+                    <label for="punt"><b>Puntuaion</b></label>
+                    <input id="punt" name="punt" type="number" min="1" max="5" step="1" required>
+                </p>
+                <p>
+                    <label for="val"><b>Valoracio Global</b></label>
+                    <select name="val">
+                        <option value="Excelent">Excelent</option>
+                        <option value="Notable" selected>Notable</option>
+                        <option value="Be">Be</option>
+                        <option value="Regular">Regular</option>
+                        <option value="Dolenta">Dolenta</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="color"><b>Color ideal tema</b></label>
+                    <input id="inColor1" name="color1" type="color" value="#FFFF00">
+                    <input id="inColor2" name="color2" type="color" value="#00FF00">
+                    <input id="inColor3" name="color3" type="color" value="#000000">
+                </p>
+                <p>
+                    <label for="obser"><b>Observaions</b></label>
+                    <input type="text" id="obser" name="obser" placeholder="Observaions" size="100" maxlength="200">
+                </p>
+                <p>
+                  <button type="submit">Login</button>
+                </p>
+                <p>
+                <input value="Resetear" type="reset">
+                </p>
+              </form>
+        </main>
+    </body>
+</html>
