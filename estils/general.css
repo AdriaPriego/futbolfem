@@ -1,0 +1,21 @@
+
+a{
+    text-decoration: none;
+    color:blue;
+}
+
+a:hover {
+    color: red;
+}
+
+img.banner{
+    width: 100%;
+    border: solid 2px black;
+}
+footer{
+    text-align: center;
+    border-top: solid 3px black;
+}
+nav{
+    text-align: left;
+}

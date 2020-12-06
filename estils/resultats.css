@@ -1,0 +1,14 @@
+footer{
+    width: 100%;
+    clear: both;
+}
+table{
+    float: left;
+    border: solid 1px black;
+    border-radius: 12px;
+    width: 30%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 3%;
+}
+
